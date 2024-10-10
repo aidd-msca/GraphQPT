@@ -1,0 +1,17 @@
+what: 'tdc'
+batch_size: 32
+gpu: [0]
+task_indices: []  
+warmup_steps: 0 
+unfreeze_step: 0
+max_epochs: 2000
+seeding: 42
+name_run: 'fukui_e_20L_wide_def_16p'
+num_layers: 20
+d_model: 256
+nhead: 32
+dim_feedforward: 512
+lr: 0.0002
+scheduler: 'cyclic'
+factor: 10
+checkpoint_path: './pretrainings_plt/qm_fukui_e_20L_wide_def_16/'

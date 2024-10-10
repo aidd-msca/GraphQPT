@@ -1,0 +1,17 @@
+what: 'homo-lumo'
+gpu: [0,1]
+data_location: '../datasets/hlgap/'
+seed: 42
+batch_size: 1000
+valid_fraction: .2
+logname: 'hl_20L_wide_def_16'
+num_layers: 20
+d_model: 256
+nhead: 32
+lr: 0.0001
+dim_feedforward: 512
+scheduler: 'const'
+lr_patience: ~
+es_patience: 100
+max_epochs: 2000
+checkpoint_root: './pretrainings_plt'
