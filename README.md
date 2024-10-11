@@ -1,6 +1,6 @@
 # Pretraining Graph Transformers with Atom-in-a-Molecule Quantum Properties for Improved ADMET Modeling
 
-This repository contains the code to reproduce the results presented in [this paper](). The Graphormer model used here is the one from [chytorch](https://github.com/chython/chytorch). 
+This repository contains the code to reproduce the results presented in [this paper](https://arxiv.org/abs/2410.08024). The Graphormer model used here is the one from [chytorch](https://github.com/chython/chytorch). 
 
 ## Table of Contents
 
